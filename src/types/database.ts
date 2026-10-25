@@ -30,6 +30,7 @@ export interface MenuItem {
   sub_category_id: string | null
   is_available: boolean // Ketersediaan Stok (In Stock vs Habis)
   is_visible: boolean   // Tampilkan di Web QR Pelanggan
+  is_featured?: boolean // Tag Rekomendasi/Favorit (FAV)
   order_index: number   // Urutan tampilan (#01, #02, dst.)
   created_at: string
   updated_at: string
